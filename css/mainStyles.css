@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    background-color: yellow;
+}
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header figure img{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+}
+header div h1{
+    font-size: 4rem;
+    padding-right: 20px;
+}
+header div h3{
+    margin-top: 10px;
+    font-size: 2.4rem;
+}
+main{
+    width: 800px;
+    margin: 0 auto;
+}
+main .main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main .main-container div{
+    background-color: red;
+    justify-content: center;
+    justify-content: center;
+    color: blanchedalmond;
+    width: 100%;
+    font-size: 1.4rem;
+}
+main .main-container div article{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+main .main-container aside{
+    background-color:blue;
+    justify-content: center;
+    justify-content: center;
+    color: blanchedalmond;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    border-right: 3px solid white;
+}
