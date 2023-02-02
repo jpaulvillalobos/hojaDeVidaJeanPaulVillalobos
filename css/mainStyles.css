@@ -29,11 +29,12 @@ header figure img{
     border-radius: 10px;
     box-shadow: 1px 1px grey;
 }
-header div h1{
+header .header-container div h1{
     font-size: 4rem;
     padding-right: 20px;
+    color: brown;
 }
-header div h2{
+header .header-container div h2{
     font-size: 2.4rem;
 }
 header div h3{
@@ -52,6 +53,7 @@ header div p{
 main{
     width: 800px;
     margin: 0 auto;
+    margin-bottom: 1%;
 }
 main .main-container{
     display: flex;
@@ -76,10 +78,11 @@ main .main-container .lateral-side-rigth{
     background-color:black;
     color: white;
     margin-top: 3%;
+    padding-left: 1%;
+    text-shadow: 10px gray;
 }
 main .main-container .lateral-side-rigth h1{
     font-size: 3rem;
-
 }
 main .main-container .lateral-side-rigth div h1{
     font-size: 2rem;
@@ -127,9 +130,11 @@ footer div p{
     }
     main{
         width: 100%;
+        margin-bottom: 0px;
     }
     footer{
         width: 100%;
+        margin-top: 5%;
     }
     main .main-container{
         display: flex;
