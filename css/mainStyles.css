@@ -134,6 +134,21 @@ footer div p{
     background-color:slategray;
 }
 
+main .main-container-references .references-titles{
+    font-size: 2.8rem;
+    color: brown;
+    margin-bottom: 5%;
+}
+main .main-container-references .references-container-item{
+    margin-bottom: 6%;
+}
+main .main-container-references .references-container-item h1{
+    margin-bottom: 5% ;
+}
+main .main-container-references .references-container-item h2{
+    margin-bottom: 2px ;
+}
+
 @media (max-width: 500px){
     header{
         width: 100%;
