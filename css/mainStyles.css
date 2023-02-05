@@ -148,7 +148,59 @@ main .main-container-references .references-container-item h1{
 main .main-container-references .references-container-item h2{
     margin-bottom: 2px ;
 }
+/* 
+*************************************************INFORMACION DETALLADA ******************************************** 
+*/
+main .main-container-info .info-container-item{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0.5%;
+    justify-content: space-between;
+}
+main .main-container-info .info-container-item article h3{
+    font-size: 1.5rem;
+}
+main .main-container-info .info-container-item article h1{
+    font-size: 2rem;
+}
+main .main-container-info .info-container-item article{
+    text-align: justify;
+    width: 48%;
+}
+main .main-container-info .info-container-item article p{
+    font-size: 1.2rem;
+    margin-left: 0.5%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+main .main-container-info .info-container-item article h3{
+    margin-left: 0.5%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+main .main-container-info .info-titles{
+    font-size: 2.8rem;
+    color: brown;
+    margin-bottom: 5%;
+}
+main .main-container-info .info-container-item .info-main-article h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+main .main-container-info .info-container-item .info-main-article p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
+
+
+
+
+
+
+/*
+******************************************************RESPONSIVE <500PX **********************************************
+ */
 @media (max-width: 500px){
     header{
         width: 100%;
