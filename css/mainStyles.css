@@ -7,7 +7,9 @@ html{
     font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/*
+****************************Trabajo con el header ***********************************************************
+*/
 header{
     width: 800px;
     margin: 0 auto;
@@ -50,6 +52,10 @@ header div{
 header div p{
     font-size: 1.2rem;
 }
+/*
+**************************************************************************MAIN************************************************
+*/
+
 main{
     width: 800px;
     margin: 0 auto;
@@ -99,6 +105,10 @@ main .main-container .lateral-side-rigth div{
     margin-bottom: 5%;
     justify-content: space-between;
 }
+
+/*
+************************************************Footer************************************************************
+*/
 footer{
     width: 800px;
     margin: 0 auto;
@@ -129,9 +139,12 @@ footer div p{
     display: inline-block;
     width: 50px;
     height: 50px;
+    transition: 0.5s;
 }
 .social-icon:hover{
-    background-color:slategray;
+    background-color:thistle;
+    transition: 0.5s;
+    border-radius: 10px;
 }
 
 main .main-container-references .references-titles{
@@ -274,16 +287,94 @@ main .main-container-info .info-container-item .info-main-article p{
     footer div ul li{
         font-size: 1.1rem;
     }
+    .main-references{
+        display: flex;
+        flex-direction: column;
+    }
+    main .main-container-info .info-container-item{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+footer div ul li a{
+    text-decoration: none;
 }
 /*
-****************************************************JAVASCRIPT**********************************************************************
+*************************************ESTILOS A LA PAGINA DE INFORMACIÓN DETALLADA***********************************************
 */
-#button-fam-ref01{
-    cursor: pointer;
+main .main-info-container-info .info-container-item article p{
+
 }
-#button-fam-ref02{
-    cursor: pointer;
+main .main-container-info .main-container-info .references-container-item p{
+    font-size: 1.2rem;
 }
-#button-fam-ref03{
+main .main-container-info .main-container-info .references-container-item p span{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+main .main-container-info .info-container-item article p span{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/*
+****************************************ESTILOS A LA PAGINA DE REFERENCIAS**********************************************************
+*/
+/*
+****************************************************BOTONES**********************************************************************
+*/
+
+#button-fam-ref01,#button-fam-ref02,#button-fam-ref03,#button-fam-ref04{
     cursor: pointer;
+    width: 300px;
+    border-radius: 5px;
+    color:black;
+    transition: 0.5s;
+    text-align: center;
+    
+    
+}
+
+#button-fam-ref01:hover,#button-fam-ref02:hover,#button-fam-ref03:hover,#button-fam-ref04:hover{
+    background-color: white;
+    color:black;
+    transition: 0.5s;
+    transform:scale(1.1);
+    text-shadow: 2px black;
+    border: 1px solid gray;
+}
+
+#button-per-ref01,#button-per-ref02,#button-per-ref03,#button-per-ref04{
+    cursor: pointer;
+    width: 300px;
+
+    border-radius: 5px;
+    color:black;
+    transition: 0.5s;
+    text-align: center;
+}
+#button-per-ref01:hover,#button-per-ref02:hover,#button-per-ref03:hover,#button-per-ref04:hover{
+    background-color:white;
+    color:black;
+    transition: 0.5s;
+    transform:scale(1.1);
+    text-shadow: 2px black;
+    border: 1px solid gray;
+}
+#family_ref001,#family_ref002,#family_ref003,#family_ref004{
+    height: 80px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-top: 1%;
+    color: black;
+}
+#personal_ref001,#personal_ref002,#personal_ref003,#personal_ref004{
+    height: 80px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-top: 1%;
+    color: black;
 }
