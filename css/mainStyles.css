@@ -275,3 +275,15 @@ main .main-container-info .info-container-item .info-main-article p{
         font-size: 1.1rem;
     }
 }
+/*
+****************************************************JAVASCRIPT**********************************************************************
+*/
+#button-fam-ref01{
+    cursor: pointer;
+}
+#button-fam-ref02{
+    cursor: pointer;
+}
+#button-fam-ref03{
+    cursor: pointer;
+}
