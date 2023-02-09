@@ -381,6 +381,9 @@ main .main-container-info .info-container-item .info-main-article p{
         font-weight: bold;
         -webkit-text-stroke: 1px black;
     }
+    .slide__menu{
+        display: block;
+    }
 }
 footer div ul li a{
     text-decoration: none;
