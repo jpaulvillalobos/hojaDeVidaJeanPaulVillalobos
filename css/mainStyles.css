@@ -55,6 +55,31 @@ header div p{
 .slide__menu{
     display: none;
 }
+nav.main-menu-top{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav.main-menu-top ul.main-menu-top__list{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    list-style: none;
+}
+nav.main-menu-top ul.main-menu-top__list li{
+    border: 1px solid black;
+    border-radius: 10px;
+    background: black;
+    transition: 0.5s;
+}
+nav.main-menu-top ul.main-menu-top__list li:hover{
+    background: brown;
+    transition: 0.5s;
+}
+nav.main-menu-top ul.main-menu-top__list li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
 /*
 **************************************************************************MAIN************************************************
 */
@@ -217,7 +242,7 @@ main .main-container-info .info-container-item .info-main-article p{
 /*
 ******************************************************RESPONSIVE <500PX **********************************************
  */
-@media (max-width: 500px){
+@media (min-width: 300px) and (max-width: 500px){
     header{
         width: 100%;
         
@@ -241,6 +266,9 @@ main .main-container-info .info-container-item .info-main-article p{
         color:navy;
         margin-top: 2%;
 
+    }
+    .main-menu-top{
+        display: none;
     }
     header figure{
         margin: 0 auto;
