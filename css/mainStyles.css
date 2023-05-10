@@ -134,6 +134,10 @@ main .main-container .lateral-side-rigth div{
     justify-content: space-between;
 }
 
+section .estudios-div div{
+margin-top: 1.5%;
+}
+
 /*
 ************************************************Footer************************************************************
 */
